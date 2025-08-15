@@ -1,0 +1,27 @@
+{
+  "manifest_version": 1,
+  "name": "Kick Anti Auto Quality",
+  "version": "1.0.0",
+  "description": "Kick is assigning stream quality session based (each time you close the browser you gotto select quality again) therefore everytime you are needing to select a quality instead of \"Auto\" with this plugin simply select the quality you want and forget. you won't see auto anymore.",
+  "permissions": ["storage", "activeTab", "scripting", "tabs", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Kick Anti Auto Quality"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

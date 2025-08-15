@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quality Selector</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Quality</h1>
+      </div>
+
+      <div class="content">
+        <div class="main-content">
+          <div class="current-quality">
+            <span id="currentQualityText">1080p</span>
+          </div>
+
+          <div class="quality-options">
+            <button class="quality-btn" data-value="160">160p</button>
+            <button class="quality-btn" data-value="360">360p</button>
+            <button class="quality-btn" data-value="480">480p</button>
+            <button class="quality-btn" data-value="720">720p</button>
+            <button class="quality-btn active" data-value="1080">1080p</button>
+          </div>
+        </div>
+
+        <div class="info-section">
+          <p class="info-text">
+            If stream quality is lower than selected, auto mode will activate.
+            <span class="info-highlight"
+              >But who streams below 1080p anyway? 😎</span
+            >
+          </p>
+
+          <div class="donate-section">
+            <button id="donateBtn" class="donate-btn">
+              <span class="donate-icon">💚</span>
+              <span class="donate-text">Buy me a coffee</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

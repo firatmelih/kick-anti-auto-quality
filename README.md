@@ -20,7 +20,11 @@
 - **Fixes Kick Quality Reset**: Solves the persistent issue of Kick resetting quality to Auto
 - **Quality Persistence**: Your 720p, 1080p, or any quality choice stays saved
 
-## Installation
+## 📥 Download & Installation
+
+### 🚀 Quick Download (Recommended)
+**Latest Version: v1.0.0**  
+[Download Extension ZIP](kick-anti-auto-quality-v1.0.0.zip) - Ready to install!
 
 ### Method 1: Manual Installation (Current)
 

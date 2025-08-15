@@ -2,15 +2,16 @@
 
 ## 🎉 Initial Stable Release
 
-**Release Date**: August 15, 2024  
-**Version**: 1.0.0  
-**Download**: [kick-anti-auto-quality-v1.0.0.zip](kick-anti-auto-quality-v1.0.0.zip)
+**Release Date**: August 15, 2024
+**Version**: 1.0.1
+**Download**: [kick-anti-auto-quality-v1.0.1.zip](kick-anti-auto-quality-v1.0.1.zip)
 
 ## ✨ What's New
 
 This is the initial stable release of the Kick Anti Auto Quality Chrome Extension.
 
 ### 🚀 Features
+
 - **Quality Persistence**: Automatically saves your chosen stream quality preference
 - **Eliminates "Auto" Quality**: Prevents Kick from resetting to Auto quality
 - **One-Time Setup**: Set your quality once and forget about it
@@ -18,21 +19,28 @@ This is the initial stable release of the Kick Anti Auto Quality Chrome Extensio
 - **Instant Application**: Quality is applied immediately when visiting Kick.com
 
 ### 🎯 Supported Qualities
+
 - 160p (Low bandwidth)
-- 360p (Standard definition)  
+- 360p (Standard definition)
 - 480p (DVD quality)
 - 720p (HD)
 - 1080p (Full HD)
 
 ### 🔧 Technical Details
-- **Manifest Version**: 1
+
+- **Manifest Version**: 3 (Chrome compatible)
 - **Permissions**: storage, activeTab, scripting, tabs, alarms
 - **Target**: All websites (with special handling for Kick.com)
 - **Storage**: Persistent quality preference storage
 
+### 🐛 Bug Fixes
+- **Fixed Manifest Version**: Updated from v1 to v3 for Chrome compatibility
+- **Installation Issue**: Resolved "Invalid manifest_version" error during installation
+
 ## 📥 Installation
 
 ### Quick Install (Recommended)
+
 1. Download the ZIP file above
 2. Extract the ZIP to a folder on your computer
 3. Open Chrome and go to `chrome://extensions/`
@@ -41,22 +49,27 @@ This is the initial stable release of the Kick Anti Auto Quality Chrome Extensio
 6. The extension icon will appear in your toolbar
 
 ### Manual Installation
+
 - Follow the detailed instructions in [INSTALLATION.md](INSTALLATION.md)
 
 ## 🐛 Known Issues
+
 - None reported in this release
 
 ## 🔮 Future Plans
+
 - Chrome Web Store publication
 - Mobile browser support
 - Additional quality options
 - User interface improvements
 
 ## 📞 Support
+
 - **GitHub Issues**: [Report bugs or request features](https://github.com/firatmelih/kick-anti-auto-quality/issues)
 - **Documentation**: See [README.md](README.md) for detailed information
 
 ## 🙏 Acknowledgments
+
 Thank you to all users who provided feedback and suggestions during development!
 
 ---

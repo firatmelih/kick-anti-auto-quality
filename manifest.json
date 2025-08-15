@@ -1,7 +1,7 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 3,
   "name": "Kick Anti Auto Quality",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kick is assigning stream quality session based (each time you close the browser you gotto select quality again) therefore everytime you are needing to select a quality instead of \"Auto\" with this plugin simply select the quality you want and forget. you won't see auto anymore.",
   "permissions": ["storage", "activeTab", "scripting", "tabs", "alarms"],
   "host_permissions": ["<all_urls>"],

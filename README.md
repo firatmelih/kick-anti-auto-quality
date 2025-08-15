@@ -23,8 +23,9 @@
 ## 📥 Download & Installation
 
 ### 🚀 Quick Download (Recommended)
-**Latest Version: v1.0.0**  
-[Download Extension ZIP](kick-anti-auto-quality-v1.0.0.zip) - Ready to install!
+
+**Latest Version: v1.0.1**
+[Download Extension ZIP](kick-anti-auto-quality-v1.0.1.zip) - Ready to install!
 
 ### Method 1: Manual Installation (Current)
 
